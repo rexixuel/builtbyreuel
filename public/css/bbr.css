@@ -1,0 +1,158 @@
+@font-face {
+    font-family: code-bold;
+    src: url('/fonts/CODE Bold.otf');
+}
+
+body.container-fluid
+{
+	margin: 0px;
+	padding: 0px;
+	color: rgb(	51, 51, 102 );	
+	background: url('/images/organic-tiles.png');
+}
+
+body p
+{
+	opacity: 0.85;
+}
+
+.navbar-nav .nav-link, .intro-text a
+{
+	font-family: Roboto;
+}
+
+.navbar-nav .nav-link, .scroll-down a
+{
+	color: rgba(204, 255, 204, .80);
+}
+
+.intro-text a
+{
+	color: rgba(204, 255, 204, 1.0);
+}
+
+.navbar-nav .nav-link
+{
+	font-size: 14px;
+}
+
+a:active, .navbar-nav .active, .active, .navbar-nav .nav-item
+{
+	color: rgba( 243, 239, 224 , 1.0);
+}
+
+a.nav-link.active
+{
+	color: rgba( 243, 239, 224 , 1.0);
+
+}
+
+a:hover, .navbar-nav .nav-link:hover, .scroll-down a:hover
+{
+	color: rgba(102, 204, 255, 1.0);
+	text-decoration: none;
+}
+
+
+section
+{
+	margin-bottom: 60px;
+	min-height: 100vh;
+}
+
+section .content
+{
+	padding: 15px;	
+	margin-bottom: 50px;
+}
+
+.navbar
+{	
+	background-color: rgba(0, 51, 102, .90);
+}
+
+.home
+{
+	background:url('/images/home-bg.jpg') fixed no-repeat;
+	background-size:cover;	
+}
+
+.home .content
+{
+    position: relative;
+    z-index: 2;    
+}
+
+.intro-text h1, .scroll-down, .title-text, .card-header, .carousel-caption h3
+{	
+	font-family: code-bold;	
+}
+
+.intro-text h1, .carousel-caption
+{
+	color: rgba(243, 239, 224 , 1.0);
+	
+}
+
+.scroll-down
+{	
+	width: 100%;		
+	background-color: rgba(0, 0, 0, .10);	
+}
+
+.scroll-icon, .scroll-down a p
+{
+	margin:0px;
+	padding: 0px;	
+	opacity: 0.5;
+}
+
+
+.title
+{	
+	padding-top: 60px;
+	margin-bottom: 50px;
+}
+
+.intro-text h1
+{
+	margin: 25px 20px;
+	line-height: 125%;
+	letter-spacing: 15px;	
+}
+
+.card-header a, .carousel-caption h3
+{
+	letter-spacing: 10px;
+	opacity: .80;
+}
+
+
+.card
+{
+	margin: 60px 10px 30px 10px;
+}
+
+.title-text .title
+{
+	letter-spacing: 30px;
+}
+
+.title-text, .text-content, .showcase, .outside-links
+{
+	margin-bottom: 40px;
+}
+
+.showcase .d-flex, .form
+{
+	margin-bottom: 40px;
+}
+
+.carousel-caption
+{	
+  right:0;
+  left:0;  
+  bottom:0;
+  height: 120px;
+  background-color: rgba(0, 0, 0, .45);
+}
